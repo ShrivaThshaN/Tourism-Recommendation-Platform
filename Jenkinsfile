@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/aadhil2k4/Tourism-Recommendation-Platform.git'
+                git 'https://github.com/ShrivaThshaN/Tourism-Recommendation-Platform.git'
             }
         }
 
