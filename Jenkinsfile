@@ -24,7 +24,7 @@ pipeline {
         stage('Run Frontend Tests') {
             steps {
                 dir('frontend') {
-                    bat 'npm test'
+                    bat 'npx vitest'
                 }
             }
         }
